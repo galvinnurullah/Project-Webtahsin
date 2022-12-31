@@ -1,0 +1,91 @@
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .col-2 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 2px;
+    margin-bottom: 10px;
+    transition: transform 0.5s;
+    box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.63);
+  }
+  
+  .col-2 img {
+    width: 100%;
+  }
+  
+/* ------- Tentang Saya ------ */
+.title-am {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Open-Sans";
+  margin: 0 auto 40px;
+  position: relative;
+  line-height: 90px;
+  color: rgb(0, 0, 0);
+}
+
+.title-am:after {
+  content: "";
+  background: #000000;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Open-Sans";
+  margin: 0 auto 20px;
+  position: relative;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.col-3 img {
+  margin-left: 0;
+  width: 100%;
+}
+.col-3 {
+  text-align: center;
+  margin-right: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 60px;
+  padding-bottom: 80px;
+  transition: transform 0.5s;
+}
+
+.col-3:hover {
+  transform: translateY(-8px);
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  text-align: center;
+}
+
+.col-2 h1 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.rating .fa {
+  color: #ff523b;
+}
+
+.col-2:hover {
+  transform: translateY(-5px);
+}
